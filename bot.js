@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "m!";
+const prefix = "a!";
 /////////////////////////
 ////////////////////////
 
@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`m!play |mahmod AR Music`,"http://twitch.tv/Death Shop")
+client.user.setGame(`a!play |mahmod AR Music`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
